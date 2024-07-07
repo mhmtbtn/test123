@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="MainListItem" style="flex-grow: 1; height: auto; width: 200px; min-height: auto; max-height: 50px;">
+        <ui:Button text="Button" name="Button" />
+    </ui:VisualElement>
+</ui:UXML>

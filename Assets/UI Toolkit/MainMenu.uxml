@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Main.uss?fileID=7433441132597879392&amp;guid=d0259ed27af5c384fb88c7a9ca1aff4d&amp;type=3#Main" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; position: absolute; bottom: 0; justify-content: center; min-height: 40px; height: 40px; left: 0; right: 0; flex-direction: row-reverse; align-items: center; padding-bottom: 0; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 0;">
+        <ui:Button text="Button" />
+        <ui:Button text="Button" />
+        <ui:Button text="Button" />
+        <ui:Label text="Label" name="TestLabel" data-source-type="Test123.Test1.UI.Model.MainModel, Assembly-CSharp" data-source-path="MainValue" style="width: 300px;" />
+        <ui:TextField label="Text Field" placeholder-text="filler text" name="XTextField" data-source-type="Test123.Test1.UI.Model.MainModel, Assembly-CSharp" data-source-path="MainValue" style="width: 300px;" />
+    </ui:VisualElement>
+    <ui:ListView name="ListView" item-template="project://database/Assets/UI%20Toolkit/UIItems/MainListItem.uxml?fileID=9197481963319205126&amp;guid=0b8c5d1b6ff52fa47963b8e3be5b2d69&amp;type=3#MainListItem" style="justify-content: flex-end; width: 400px; height: 80%;" />
+</ui:UXML>
